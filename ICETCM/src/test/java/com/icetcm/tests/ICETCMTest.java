@@ -56,7 +56,7 @@ public class ICETCMTest {
         } 
         WebElement warn=driver.findElement(By.xpath("//*[@id='ibm-content-main']/div[1]/div/form/p[2]"));
         String res=warn.getText();
-    	System.out.println("Login button text is : "+res);
+    	System.out.println("Warn message is : "+res);
     	Assert.assertEquals("You are not authorized to work with ICET application or your credentials is not correct.", res);
     	test.log(LogStatus.PASS, "Warn Message");
     }
