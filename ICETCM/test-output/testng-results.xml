@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51628" started-at="2017-09-14T09:03:43Z" finished-at="2017-09-14T09:04:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51628" started-at="2017-09-14T09:03:43Z" finished-at="2017-09-14T09:04:35Z">
+      <class name="com.icetcm.tests.ICETCMTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.icetcm.tests.ICETCMTest@7cd62f43]" name="init" is-config="true" duration-ms="4902" started-at="2017-09-14T14:33:43Z" finished-at="2017-09-14T14:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="icetTest()[pri:0, instance:com.icetcm.tests.ICETCMTest@7cd62f43]" name="icetTest" duration-ms="45916" started-at="2017-09-14T14:33:48Z" finished-at="2017-09-14T14:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- icetTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.icetcm.tests.ICETCMTest@7cd62f43]" name="getResult" is-config="true" duration-ms="4" started-at="2017-09-14T14:34:34Z" finished-at="2017-09-14T14:34:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=icetTest status=SUCCESS method=ICETCMTest.icetTest()[pri:0, instance:com.icetcm.tests.ICETCMTest@7cd62f43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:com.icetcm.tests.ICETCMTest@7cd62f43]" name="endreport" is-config="true" duration-ms="778" started-at="2017-09-14T14:34:34Z" finished-at="2017-09-14T14:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- com.icetcm.tests.ICETCMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
